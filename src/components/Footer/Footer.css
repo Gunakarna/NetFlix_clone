@@ -26,3 +26,14 @@
   color: aquamarine;
   font-size: 14px;
 }
+
+@media (max-width: 600px) {
+  .footer ul {
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+  .Copyright-text {
+    color: aquamarine;
+    font-size: 12px;
+  }
+}

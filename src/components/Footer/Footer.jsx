@@ -25,7 +25,8 @@ function Footer() {
         <li>Corporate Informations</li>
       </ul>
       <p className="Copyright-text">
-        &copy; 1997 Netflex. All rights reserved.
+        &copy; 1997 Netflex. All rights reserved. |{" "}
+        <span style={{ color: "yellow" }}>Crafted by Gunkarna</span>
       </p>
     </div>
   );

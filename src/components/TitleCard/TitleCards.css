@@ -1,29 +1,67 @@
-.Title-Cards{
-    margin-top: 50px;
-    margin-bottom: 30px;
+.Title-Cards {
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
-.Title-Cards h2{
-    margin-bottom: 8px;
+.Title-Cards h2 {
+  margin-bottom: 8px;
 }
-.card-list{
-    display: flex;
-    gap: 10px;
-    overflow-x: scroll;
+.card-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
 }
-.card-list img{
-    width: 240px;
-    border-radius: 4px;
-    cursor: pointer;
+.card-list img {
+  width: 240px;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.card-list::-webkit-scrollbar{
-    display: none;
+.card-list::-webkit-scrollbar {
+  display: none;
 }
 .card-list .card {
-    position: relative;
+  position: relative;
 }
 
-.card-list .card p{
-    position: absolute;
-    bottom: 7px;
-    right: 10px;
+.card-list .card p {
+  position: absolute;
+  bottom: 7px;
+  /* right: 9px; */
+  left: 9px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+@media (max-width: 500px) {
+  .Title-Cards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .Title-Cards h2 {
+    margin-left: 6%;
+    font-size: 18px;
+  }
+  .card-list img {
+    width: 180px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 6%;
+  }
+}
+
+@media (max-width: 800px) {
+  .Title-Cards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .Title-Cards h2 {
+    margin-left: 6%;
+    font-size: 18px;
+  }
+  .card-list img {
+    width: 230px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 6%;
+  }
 }
